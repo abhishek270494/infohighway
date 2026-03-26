@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: audit
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: audit_db
+
+server:
+  port: 8082
